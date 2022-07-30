@@ -2,6 +2,13 @@ import math
 import torch
 from torch.optim.optimizer import Optimizer
 
+'''
+AdamW is a variant of Adam based on the infinity norm.
+Adam with weight decay is a variant of Adam that incorporates L2 weight decay.
+'''
+
+
+
 class AdamW(Optimizer):
     def __init__(self, params, lr=1e-4, betas=(0.9, 0.999), eps=1e-5, weight_decay=1e-5, hypergrad=0, partial=1):
         if not 0.0 <= betas[0] < 1.0:
