@@ -6,4 +6,3 @@ pandas==1.1.5
 seaborn==0.10.1
 torch==1.11.0
 torchvision==0.12.0
-https://mega.nz/folder/tAdxwYYI#pL8lH69Zp7HUNW_C0wAndw/folder/YdsEyIAI
